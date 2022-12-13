@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrapTable</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <marquee>
+        <h2><u>MARKSHEET DEMO</u></h2>
+    </marquee>
+
+    <p align="center"><a href="https://www.raystec.com/"><b>&COPY;Welcome To Rays Technology</b></a></p>
+
+    <ul class="pagination pagination-lg">
+        <li class="active"><a href="#" data-toggle="tooltip" title="Home">Home</a></li>
+        <li class="active"><a href="#" data-toggle="tooltip" title="Contact">Contact</a></li>
+        <li class="disabled"><a href="#" data-toggle="tooltip" title="About Us">About Us</a></li>
+        <li class="active"><a href="#" data-toggle="tooltip" title="Service">Service</a></li>
+        <li class="active"><a href="#" data-toggle="tooltip" title="Product">Product</a></li>
+        <li class="disabled"><a href="#" data-toggle="tooltip" title="Career">Career</a></li>
+    </ul>
+
+    <img src="./2021-12-29-16-30-50-CIP_Icon.png" alt="Hello Guys" align="right">
+
+    <button type="button" align="center" class="btn btn-success btn-lg active">PREVIOUS</button>
+    <button type="button" align="center" class="btn btn-danger btn-lg active">BACK</button>
+    <button type="button" align="center" class="btn btn-success btn-lg active">NEXT</button>
+    <button type="button" align="center" class="btn btn-link btn-link disabled">REDIRECT</button>
+
+
+
+    <table class="table table-striped table-bordered table-hover table-responsive" align="center">
+        <tr>
+            <th align="center" colspan="16" bgcolor="orange"><b>GRADE CARD</b></th>
+        </tr>
+        <tr bgcolor="cream">
+            <th align="left" colspan="8">PROGRAMME: B.SC.(INFORMATION TECHNOLOGY</th>
+            <th align="left" colspan="8">SEMESTER I (2022-2023)</th>
+        </tr>
+        <tr bgcolor="yellow">
+            <th align="Center" colspan="4">Examination Unique Code No.</th>
+            <th align="Center" colspan="4">Examination Seat No.</th>
+            <th align="Center" colspan="4">Name of The Candidate</th>
+            <th align="Center" colspan="4">Month, Year of the Examination</th>
+        </tr>
+        <tr bgcolor="slatblue">
+            <th height="20" colspan="4"></th>
+            <th height="20" colspan="4"></th>
+            <th height="20" colspan="4"></th>
+            <th height="20" colspan="4"></th>
+        </tr>
+        <tr bgcolor="MediumSeaGreen">
+            <th rowspan="2">Course Code</th>
+            <th rowspan="2">Course Name</th>
+            <th rowspan="2">Credit Points</th>
+            <th colspan="3">Internal Assesment</th>
+            <th colspan="3">Semester End Examination</th>
+            <th colspan="2">Total Marks</th>
+            <th rowspan="2">Grade</th>
+            <th rowspan="2">Grade Points</th>
+            <th rowspan="2">Credits Earned</th>
+            <th rowspan="2">CGPA</th>
+            <th rowspan="2">SGPA</th>
+        </tr>
+        <tr bgcolor="violet">
+            <th>Max Marks</th>
+            <th>Min Marks</th>
+            <th>Marks Obtained</th>
+            <th>Max Marks</th>
+            <th>Min Marks</th>
+            <th>Marks Obtained</th>
+            <th>Max Marks</th>
+            <th>Marks Obtained</th>
+        </tr>
+
+        <tr align="center" bgcolor="gray">
+            <td>USIT 101</td>
+            <td align="left">Imperative Programmming</td>
+            <td>2</td>
+            <td>25</td>
+            <td>10</td>
+            <td class="success"></td>
+            <td>75</td>
+            <td>30</td>
+            <td class="warning"></td>
+            <td>100</td>
+            <td class="danger"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="10" bgcolor="goldenrod"></td>
+            <td rowspan="10" bgcolor="magenta"></td>
+        </tr>
+
+        <tr align="center" bgcolor="gray">
+            <td>USIT 1P1</td>
+            <td align="left">Programmming Practical</td>
+            <td>2</td>
+            <td colspan="3">NA</td>
+            <td>50</td>
+            <td>20</td>
+            <td class="warning"></td>
+            <td>50</td>
+            <td class="danger"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center" bgcolor="gray">
+            <td>USIT 102</td>
+            <td align="left">Digital Electronics</td>
+            <td>2</td>
+            <td>25</td>
+            <td>10</td>
+            <td class="success"></td>
+            <td>75</td>
+            <td>30</td>
+            <td class="warning"></td>
+            <td>100</td>
+            <td class="danger"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center" bgcolor="gray">
+            <td>USIT 1P2</td>
+            <td align="left">Digital Electronic Practical</td>
+            <td>2</td>
+            <td colspan="3">NA</td>
+            <td>50</td>
+            <td>20</td>
+            <td class="warning"></td>
+            <td>50</td>
+            <td class="danger"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center" bgcolor="gray">
+            <td>USIT 103</td>
+            <td align="left">Operating System</td>
+            <td>2</td>
+            <td>25</td>
+            <td>10</td>
+            <td class="success"></td>
+            <td>75</td>
+            <td>30</td>
+            <td class="warning"></td>
+            <td>100</td>
+            <td class="danger"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center" bgcolor="gray">
+            <td>USIT 1P3</td>
+            <td align="left">Operating System Practical</td>
+            <td>2</td>
+            <td colspan="3">NA</td>
+            <td>50</td>
+            <td>20</td>
+            <td class="warning"></td>
+            <td>50</td>
+            <td class="danger"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center" bgcolor="gray">
+            <td>USIT 104</td>
+            <td align="left">Discrete Mathematics</td>
+            <td>2</td>
+            <td>25</td>
+            <td>10</td>
+            <td class="success"></td>
+            <td>75</td>
+            <td>30</td>
+            <td class="warning"></td>
+            <td>100</td>
+            <td class="danger"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center" bgcolor="gray">
+            <td>USIT 1P4</td>
+            <td align="left">Mathematics Practical</td>
+            <td>2</td>
+            <td colspan="3">NA</td>
+            <td>50</td>
+            <td>20</td>
+            <td class="warning"></td>
+            <td>50</td>
+            <td class="danger"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center" bgcolor="gray">
+            <td>USIT 105</td>
+            <td align="left">Communication Skills</td>
+            <td>2</td>
+            <td>25</td>
+            <td>10</td>
+            <td class="success"></td>
+            <td>75</td>
+            <td>30</td>
+            <td class="warning"></td>
+            <td>100</td>
+            <td class="danger"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center" bgcolor="gray">
+            <td>USIT 1P5</td>
+            <td align="left">Communication Practical</td>
+            <td>2</td>
+            <td colspan="3">NA</td>
+            <td>50</td>
+            <td>20</td>
+            <td class="warning"></td>
+            <td>50</td>
+            <td class="danger"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center" bgcolor="salmon">
+            <td colspan="2" align="left"><b>RESULT:</b></td>
+            <td>20</td>
+            <td align="right" colspan="11"><b>CREDITS EARNED:</b></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center" bgcolor="sandybrown">
+            <td colspan="3"><b>SEM I (2016-17)<br>Credits Earned =
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    SGPA =</b></td>
+            <td colspan="3"><b>SEM II<br>Credits Earned = NA
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    SGPA = NA</b></td>
+            <td colspan="3"><b>SEM III<br>Credits Earned = NA
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    SGPA = NA</b></td>
+            <td colspan="4"><b>SEM IV<br>Credits Earned = NA
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    SGPA = NA</b></td>
+            <td colspan="3"><b>GRADE = </b></td>
+        </tr>
+    </table>
+</body>
+
+</html>
